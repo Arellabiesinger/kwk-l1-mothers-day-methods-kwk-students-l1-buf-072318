@@ -3,8 +3,6 @@ def holiday_greeting(from, to, holiday)
  "Happy #{holiday}, #{to}! From #{from}"
 end
 
-
-
 	puts "Welcome to the Holiday Greeting Card work shop!"
 	puts "Who is this card from?"
 	sender = gets.chomp.capitalize
